@@ -157,7 +157,7 @@
 }
 .slider-container {
     overflow: hidden;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     box-sizing: border-box; /* Incluye el relleno y el borde en el tamaño total */
 }
