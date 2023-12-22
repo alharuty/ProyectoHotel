@@ -1,0 +1,57 @@
+/* Ejemplo de reset básico */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+body { 
+    font-family: 'Kalnia', serif;
+    background-color:  #4b3f30;
+}
+
+
+h1, h3 {
+    color: #CBCBCB;
+}
+
+h2 {
+    color: #555;
+}
+
+a {
+    padding: 10px;
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #555;
+    color: white;
+    border-radius: 7px;
+}
+
+li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+

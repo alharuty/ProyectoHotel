@@ -1,0 +1,43 @@
+@media screen and (max-width: 600px) {
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li {
+        flex: auto;
+        border-radius: 7px;
+        border: 1px solid black;
+    }
+
+    .container1 h1 {
+        font-size: 3em;
+    }
+
+    .container6-titulo {
+        font-size: 0.7em;
+    }
+
+    .container6 > .container2 > .contenido-texto > .titulo h2 {
+        font-size: 0.3em;
+    }
+    .container6 > .container2 > .contenido-texto > .texto > .texto-info h3 {
+        font-size: 0.2em;
+    }
+
+    .pie-pagina > .cuerpo-pie {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pie-pagina > .cuerpo-pie > .cuerpo-pie-datos {
+        width: 100%;
+        border-bottom: 1px solid black;
+        justify-content: center;
+    }
+    .pie-pagina > .cuerpo-pie > .cuerpo-pie-datos:nth-child(2) {
+        text-align: center;
+    }
+    
+}
