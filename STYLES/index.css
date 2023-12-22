@@ -151,6 +151,10 @@
 
 
 /* CONTAINER 5 */
+
+.container5 {
+    overflow-x: hidden;
+}
 .slider-container {
     overflow: hidden;
     width: 70%;
@@ -187,7 +191,6 @@
     text-align: center;
     font-size: 2em;
     background-color: #ebe1d2;
-    padding: 20px;
 }
 
 .container6-titulo {
@@ -221,7 +224,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px;
     color: #cbcbcb;
 }
 
@@ -235,9 +237,6 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content:start;
-    align-items:start;
-    text-align: center;
 }
 
 .cuerpo-pie-datos > .contenido h3 {
@@ -246,7 +245,6 @@
 
 .cuerpo-pie-datos {
     width: 30%;
-    padding: 10px;
     text-align: left;
 }
 
